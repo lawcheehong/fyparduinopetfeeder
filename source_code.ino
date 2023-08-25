@@ -53,6 +53,7 @@ void setup() {
 
   // Attach the servo to its pin
   servoMotor.attach(servoPin);
+  servoMotor.write(0);
 
   // Set the button and buzzer pins as input and output respectively
   pinMode(buttonPin, INPUT_PULLUP);
